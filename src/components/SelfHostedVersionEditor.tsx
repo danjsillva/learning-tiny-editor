@@ -1,8 +1,6 @@
 import { Editor } from "@tinymce/tinymce-react";
 
 export default function SelfHostedVersionEditor() {
-  console.log(import.meta.env.VITE_BASE_URL);
-
   return (
     <article style={{ width: "50%" }}>
       <h2>Self-hosted Version Editor</h2>
