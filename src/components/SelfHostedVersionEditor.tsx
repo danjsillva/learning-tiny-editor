@@ -1,9 +1,6 @@
-import { useRef } from "react";
 import { Editor } from "@tinymce/tinymce-react";
 
 export default function SelfHostedVersionEditor() {
-  const editorRef = useRef(null);
-
   return (
     <article style={{ width: "50%" }}>
       <h2>Self-hosted Version Editor</h2>
@@ -21,7 +18,6 @@ export default function SelfHostedVersionEditor() {
 
       <Editor
         tinymceScriptSrc={"http://localhost:5173/tinymce/tinymce.min.js"}
-        onInit={(evt, editor) => (editorRef.current = editor)}
         initialValue="<p>This is the initial content of the editor.</p>"
         init={{
           height: 500,
