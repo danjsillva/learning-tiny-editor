@@ -17,6 +17,8 @@ The output created is in HTML5 and can include lists, tables, and other useful e
 
 ## Introduction
 
+![Screenshot](./screenshot.png)
+
 This project implements 3 versions from TinyMCE:
 
 - Cloud Version (client-side renderer)
