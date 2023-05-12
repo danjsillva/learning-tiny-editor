@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TinyMCE Demo</title>
+    <!-- <link rel="stylesheet" href="/stylesheets/style.css" /> -->
+  </head>
+
+  <body>
+    <h1>Welcome to Tiny Editor POC!</h1>
+
+    <h2>Self-hosted Version Editor</h2>
+
+    <p>
+      See TinyMCE documentation for self-hosted version
+      <a
+        href="https://www.tiny.cloud/docs/tinymce/6/expressjs-pm/"
+        target="_blank"
+        >here</a
+      >.
+    </p>
+
+    <!-- Text area matching the selector specified in the TinyMCE configuration -->
+    <textarea id="my-expressjs-tinymce-app">Hello world!</textarea>
+
+    <!-- Script element sourcing TinyMCE -->
+    <script
+      type="application/javascript"
+      src="/tinymce/tinymce.min.js"
+    ></script>
+    <!-- Script element sourcing the TinyMCE configuration -->
+    <script type="application/javascript" src="/js/tinymce-config.js"></script>
+  </body>
+</html>
